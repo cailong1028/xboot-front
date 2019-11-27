@@ -130,7 +130,7 @@ util.setCurrentPath = function (vm, name) {
             currentPathArr = [
                 {
                     title: '首页',
-                    path: '/home',
+                    path: '/',
                     name: 'home_index'
                 },
                 {

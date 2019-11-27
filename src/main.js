@@ -25,6 +25,8 @@ import VueClipboard from 'vue-clipboard2'
 import VueApexCharts from 'vue-apexcharts'
 import '@babel/polyfill'
 
+
+Vue.config.devtools = true;
 Vue.config.productionTip = false
 Vue.use(VueLazyload, {
     error: require('./assets/img-error.png'),

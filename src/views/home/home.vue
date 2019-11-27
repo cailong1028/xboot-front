@@ -322,7 +322,7 @@ export default {
       admin: ["Exrick"],
       distractionFreeMode: false // 遮罩效果
     });
-    gitalk.render("comments");
+    //gitalk.render("comments");
     // 宣传视频
     let xbootVideo = Boolean(Cookies.get("xbootVideo"));
     if (!xbootVideo) {
